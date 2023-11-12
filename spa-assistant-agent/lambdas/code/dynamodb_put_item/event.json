@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2023-10-19T19:41:03.738Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AROAW57O4IIU736AAB65Q:eliaws"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "191.113.140.25"
+            },
+            "responseElements": {
+                "x-amz-request-id": "XN5FHJ9XS4B10H1B",
+                "x-amz-id-2": "mPBt1OBE/3IsLIG9x9JSyopEPBdGC+nHw9BIqRAcUWurBlHYio5Qz9ELfrUVH7BIET3fNBBSnQkKZVgmX2j7967KWPZ55/e/"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "YWUzOTdhMGQtMzZmYi00MTViLWJmMDgtNDA0NjQzYWU1OTMw",
+                "bucket": {
+                    "name": "reinvent2023stack-airlinedemobucket7e3e1509-y38boj68rqn2",
+                    "ownerIdentity": {
+                        "principalId": "A3A3C3UAUG3DUH"
+                    },
+                    "arn": "arn:aws:s3:::reinvent2023stack-airlinedemobucket7e3e1509-y38boj68rqn2"
+                },
+                "object": {
+                    "key": "airline-dataset/Airline_Dataset_Updated.csv",
+                    "size": 12639389,
+                    "eTag": "263bd10ac3e9910ed79f45acc8c6ed0d",
+                    "sequencer": "006531864F6E66532B"
+                }
+            }
+        }
+    ]
+}
